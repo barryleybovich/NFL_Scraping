@@ -12,18 +12,15 @@ example input/output:
 node receiver.js receiverPercentage 2012
 
 Of 400 recievers, the average reception percentage was 61.92%
-Randall Cobb had the best recieving percentage (minimum 50 receptions) with 76.9
-2% receiving on 104 targets
+Randall Cobb had the best recieving percentage (minimum 50 receptions) with 76.92% receiving on 104 targets
 
 node receiver.js distanceDownfield 2004
 
-David Givens catches furthest downfield (min  50 receptions)  with catches an av
-erage of 15.61 yards downfield
+David Givens catches furthest downfield (min  50 receptions)  with catches an average of 15.61 yards downfield
 
 node receiver.js recYardsPerAttempt 2010
 
-Mario Manningham had the most yards per targets (min 50 receptions)  with 10.26
-yards per target
+Mario Manningham had the most yards per targets (min 50 receptions)  with 10.26 yards per target
 
 
 
