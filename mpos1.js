@@ -166,7 +166,7 @@ function recPercentage(){
 
   }
   var catchpercent=totalreceptions/totaltargets*100;
-console.log(catchpercent);
+
   console.log("In "+ year + ", of "+playerCount+ ' recievers, the average reception percentage was '+catchpercent.toFixed(2)+'%')
   console.log(name+' had the best recieving percentage (minimum 50 receptions) with '+(winner*100).toFixed(2)+'% receiving on '+winnertargets+' targets')
 
@@ -205,7 +205,7 @@ function distanceDownfield(){
         winner=player;
         furthest=(curfur);}
   }
-  console.log("In "+ year + ", "+winner.called+ ' catches furthest downfield (min  50 receptions)  with catches an average of ' +(furthest).toFixed(2)+ ' yards downfield')
+  console.log("In "+ year + ", "+winner.called+ ' caught furthest downfield (min  50 receptions)  with catches an average of ' +(furthest).toFixed(2)+ ' yards downfield.')
 }
   
 
@@ -226,7 +226,7 @@ function yardsPerInt(){
       tot=curcount;
     }
   }
-console.log("In "+ year + ", "+winner.called + ' gains about ' +tot.toFixed(0) +' yards for every interception he throws.')
+console.log("In "+ year + ", "+winner.called + ' gained about ' +tot.toFixed(0) +' yards for every interception he threw.')
 }
 
 function attemptsForTD(){
@@ -246,7 +246,7 @@ function attemptsForTD(){
       attempts=player.attempts;
     }
   }
-  console.log("In "+ year + ", "+winner.called + ' passes for a touchdown once for every '+ tot.toFixed(2)+ ' times he throws the ball.')
+  console.log("In "+ year + ", "+winner.called + ' passed for a touchdown once for every '+ tot.toFixed(2)+ ' times he threw the ball.')
 }
 
 function ratingToSacks(){
